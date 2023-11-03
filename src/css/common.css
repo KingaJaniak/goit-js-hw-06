@@ -22,3 +22,14 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
+.gallery{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.imgWrapper{
+  max-width: 750px;
+  max-height: 1260px;
+  display: flex;
+  flex-direction: column;
+}
