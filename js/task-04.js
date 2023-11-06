@@ -2,7 +2,7 @@ let counterValue = 0;
 function updateValue (){
     value.textContent = counterValue;};
     const value = document.querySelector("#value");
-value.addEventListener("click", () => {
+    value.addEventListener("click", () => {
     counterValue = 0;
     updateValue();
 });

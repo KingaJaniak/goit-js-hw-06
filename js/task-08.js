@@ -1,6 +1,6 @@
 const formLog = document.querySelector(".login-form");
 formLog.addEventListener("submit", handleSubmit);
-function handleSubmit(event){
+function handleSubmit(event) {
     event.preventDefault();
     const form = event.target;
     const email = form.elements.email.value;
